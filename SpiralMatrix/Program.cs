@@ -20,6 +20,12 @@ namespace SpiralMatrix
                 {7,8,9}
             });
 
+            var res = SpiralOrder(new int[][] {
+                new int[]{1,2,3},
+                new int[]{4,5,6},
+                new int[]{7,8,9}
+            });
+
             Console.ReadKey();
         }
 
@@ -61,6 +67,25 @@ namespace SpiralMatrix
                 if (col == n - col - 1 && m - row - 1 == row)
                     Console.WriteLine(matrix[row, col]);
             }
+        }
+
+        public static List<int> SpiralOrder(int[][] matrix)
+        {
+            List<int> res = new List<int>();
+            if (matrix.Length == 0 || matrix[0].Length == 0) return res;
+            int n = matrix.Length, m = matrix[0].Length, row = 0, col = -1;
+            while (true)
+            {
+                for (int i = 0; i < m; ++i) res.Add(matrix[row][++col]);
+                if (--n == 0) break;
+                for (int i = 0; i < n; ++i) res.Add(matrix[++row][col]);
+                if (--m == 0) break;
+                for (int i = 0; i < m; ++i) res.Add(matrix[row][--col]);
+                if (--n == 0) break;
+                for (int i = 0; i < n; ++i) res.Add(matrix[--row][col]);
+                if (--m == 0) break;
+            }
+            return res;
         }
     }
 }
