@@ -19,6 +19,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SubstringConcatenateAllWord
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SubMatrixSumZero", "SubMatrixSumZero\SubMatrixSumZero.xproj", "{7E2A0B0F-9126-4A72-A5BB-0F79D30194EF}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FirstIndexNeedleHaystack", "FirstIndexNeedleHaystack\FirstIndexNeedleHaystack.xproj", "{75A21B0D-EA48-4140-9162-B9266F026AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{7E2A0B0F-9126-4A72-A5BB-0F79D30194EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E2A0B0F-9126-4A72-A5BB-0F79D30194EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E2A0B0F-9126-4A72-A5BB-0F79D30194EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A21B0D-EA48-4140-9162-B9266F026AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A21B0D-EA48-4140-9162-B9266F026AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A21B0D-EA48-4140-9162-B9266F026AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A21B0D-EA48-4140-9162-B9266F026AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,6 @@ Global
 		{267FF86B-EE86-435E-9B8A-79A9581EA8F8} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
 		{8EB172A5-2B14-444A-8FDF-AEE49B4B7EF2} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
 		{7E2A0B0F-9126-4A72-A5BB-0F79D30194EF} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
+		{75A21B0D-EA48-4140-9162-B9266F026AE4} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
 	EndGlobalSection
 EndGlobal
