@@ -9,7 +9,8 @@ namespace WordBreak
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(WordBreak("123456123", new List<string> { "123", "456" }));
+            Console.WriteLine(WordBreak("123456123", new List<string> { "123", "45", "12", "1" }));
+            Console.WriteLine(WordBreakR("123456123", new List<string> { "123", "456", "12", "1", "" }));
             Console.ReadKey();
         }
 
@@ -31,6 +32,20 @@ namespace WordBreak
             }
 
             return matches[s.Length];
+        }
+
+        public static bool WordBreakR(string s, IReadOnlyCollection<string> w)
+        {
+            if (s.Length == 0)
+                return true;
+
+            foreach (var word in w)
+            {
+                if (word.Length != 0 && word.Length <= s.Length && s.StartsWith(word) && WordBreakR(s.Substring(word.Length, s.Length - word.Length), w))
+                    return true;
+            }
+
+            return false;
         }
     }
 }
