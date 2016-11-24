@@ -9,7 +9,7 @@ namespace WordBreak
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(WordBreak("123456123", new List<string> { "123", "45", "12", "1" }));
+            Console.WriteLine(WordBreak("123456123", new List<string> { "123", "45", "12" }));
             Console.WriteLine(WordBreakR("123456123", new List<string> { "123", "456", "12", "1", "" }));
             Console.ReadKey();
         }
