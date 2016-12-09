@@ -10,7 +10,7 @@ namespace MaxSpacing
         public static void Main(string[] args)
         {
             Console.WriteLine(FindMaxSpacing(new int[] { 1,2,3,4,5 }));
-            Console.WriteLine(FindMaxSpacing(new int[] { 1, 7, 3, 4, 5 }));
+            Console.WriteLine(FindMaxSpacing(new int[] { 6, 7, 3, 7, 5 }));
             Console.ReadKey();
         }
 
