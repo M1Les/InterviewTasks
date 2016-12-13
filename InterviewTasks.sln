@@ -97,6 +97,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LastWordLength", "LastWordL
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LetterCombinations", "LetterCombinations\LetterCombinations.xproj", "{B1BFE839-BD3F-4D9A-AC13-B7A32E3FB2AA}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IsomorphicStrings", "IsomorphicStrings\IsomorphicStrings.xproj", "{3065E8B1-F728-4C0D-BC94-2C5F3DA0D93C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,10 @@ Global
 		{B1BFE839-BD3F-4D9A-AC13-B7A32E3FB2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1BFE839-BD3F-4D9A-AC13-B7A32E3FB2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1BFE839-BD3F-4D9A-AC13-B7A32E3FB2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3065E8B1-F728-4C0D-BC94-2C5F3DA0D93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3065E8B1-F728-4C0D-BC94-2C5F3DA0D93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3065E8B1-F728-4C0D-BC94-2C5F3DA0D93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3065E8B1-F728-4C0D-BC94-2C5F3DA0D93C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -323,5 +329,6 @@ Global
 		{66501633-2A25-4DDF-915A-B72CD2435F25} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
 		{783199F6-F2EB-478C-8D46-4D06F35EF596} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
 		{B1BFE839-BD3F-4D9A-AC13-B7A32E3FB2AA} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
+		{3065E8B1-F728-4C0D-BC94-2C5F3DA0D93C} = {E61EE04F-F490-4063-AC56-12E9AB3E44D9}
 	EndGlobalSection
 EndGlobal
