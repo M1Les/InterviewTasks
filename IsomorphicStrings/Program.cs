@@ -11,6 +11,8 @@ namespace IsomorphicStrings
         {
             Console.WriteLine(IsIso("abb","edd"));
             Console.WriteLine(IsIso("abb", "edf"));
+            Console.WriteLine(IsIso("abc", "eed")); // that's why you need a second cycle
+            Console.WriteLine(IsIso("abb", "eee")); // that's why you need a second cycle
             Console.ReadKey();
         }
 
