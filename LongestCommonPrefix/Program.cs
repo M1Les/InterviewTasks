@@ -13,6 +13,8 @@ namespace LongestCommonPrefix
             Console.WriteLine(LongestPref(new string[] { "123", "1", "12"}));
             Console.WriteLine(LongestPref(new string[] { "123", "2", "2" }));
             Console.WriteLine(LongestPref(new string[] { "1", "123", "12" }));
+            Console.WriteLine(LongestPref(new string[] { "11", "1123", "11112" }));
+            Console.WriteLine(LongestPref(new string[] { "12", "123", "12" }));
             Console.ReadKey();
         }
 
