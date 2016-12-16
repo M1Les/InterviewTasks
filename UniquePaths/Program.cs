@@ -17,6 +17,7 @@ namespace UniquePaths
             Console.WriteLine(CountUniquePathsWithObstacles(new int[,] { { } }));
             Console.WriteLine(CountUniquePathsWithObstacles(new int[,] { { 0 } }));
             Console.WriteLine(CountUniquePathsWithObstacles(new int[,] { { 0, 0 } }));
+            Console.WriteLine(CountUniquePathsWithObstacles(new int[,] { { 0, 0, 0 } }));
             Console.WriteLine(CountUniquePathsWithObstacles(new int[,] { { 0, 0, 0 }, { 0, 0, 0 } }));
             Console.WriteLine(CountUniquePathsWithObstacles(new int[,] { { 0, 1, 0 }, { 0, 0, 0 } }));
             Console.WriteLine(CountUniquePathsWithObstacles(new int[,] { { 0, 0, 1 }, { 0, 0, 0 } }));
