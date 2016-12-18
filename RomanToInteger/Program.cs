@@ -26,6 +26,7 @@ namespace RomanToInteger
             Console.WriteLine(ConvertRomanToInteger("XXI"));//-> 21
             Console.WriteLine(ConvertRomanToInteger("XCIX"));//-> 99
             Console.WriteLine(ConvertRomanToInteger("III"));//-> 3
+            Console.WriteLine(ConvertRomanToInteger("VI"));//-> 6
 
             Console.ReadKey();
         }
